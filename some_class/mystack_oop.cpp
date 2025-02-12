@@ -44,4 +44,5 @@ int main() {
     stack.size();
     stack.clear();
     stack.size();
+    return 0;
 }
