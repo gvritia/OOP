@@ -49,11 +49,23 @@ cmake_ninja_workdir = C$:/Users/user/CLionProjects/untitled3/cmake-build-debug/
 
 build cmake_object_order_depends_target_untitled3: phony || .
 
-build CMakeFiles/untitled3.dir/main.cpp.obj: CXX_COMPILER__untitled3_unscanned_Debug C$:/Users/user/CLionProjects/untitled3/main.cpp || cmake_object_order_depends_target_untitled3
-  DEP_FILE = CMakeFiles\untitled3.dir\main.cpp.obj.d
+build CMakeFiles/untitled3.dir/some_class/main.cpp.obj: CXX_COMPILER__untitled3_unscanned_Debug C$:/Users/user/CLionProjects/untitled3/some_class/main.cpp || cmake_object_order_depends_target_untitled3
+  DEP_FILE = CMakeFiles\untitled3.dir\some_class\main.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\untitled3.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled3.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled3.dir\some_class
+
+build CMakeFiles/untitled3.dir/some_class/complex.cpp.obj: CXX_COMPILER__untitled3_unscanned_Debug C$:/Users/user/CLionProjects/untitled3/some_class/complex.cpp || cmake_object_order_depends_target_untitled3
+  DEP_FILE = CMakeFiles\untitled3.dir\some_class\complex.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled3.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled3.dir\some_class
+
+build CMakeFiles/untitled3.dir/some_class/triangle_circle.cpp.obj: CXX_COMPILER__untitled3_unscanned_Debug C$:/Users/user/CLionProjects/untitled3/some_class/triangle_circle.cpp || cmake_object_order_depends_target_untitled3
+  DEP_FILE = CMakeFiles\untitled3.dir\some_class\triangle_circle.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled3.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled3.dir\some_class
 
 
 # =============================================================================
@@ -63,7 +75,7 @@ build CMakeFiles/untitled3.dir/main.cpp.obj: CXX_COMPILER__untitled3_unscanned_D
 #############################################
 # Link the executable untitled3.exe
 
-build untitled3.exe: CXX_EXECUTABLE_LINKER__untitled3_Debug CMakeFiles/untitled3.dir/main.cpp.obj
+build untitled3.exe: CXX_EXECUTABLE_LINKER__untitled3_Debug CMakeFiles/untitled3.dir/some_class/main.cpp.obj CMakeFiles/untitled3.dir/some_class/complex.cpp.obj CMakeFiles/untitled3.dir/some_class/triangle_circle.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled3.dir
