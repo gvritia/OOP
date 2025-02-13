@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/user/CLionProjects/untitled3/cmake-build-debug/
 
 build cmake_object_order_depends_target_untitled3: phony || .
 
-build CMakeFiles/untitled3.dir/some_class/main.cpp.obj: CXX_COMPILER__untitled3_unscanned_Debug C$:/Users/user/CLionProjects/untitled3/some_class/main.cpp || cmake_object_order_depends_target_untitled3
-  DEP_FILE = CMakeFiles\untitled3.dir\some_class\main.cpp.obj.d
+build CMakeFiles/untitled3.dir/some_class/mystack_oop.cpp.obj: CXX_COMPILER__untitled3_unscanned_Debug C$:/Users/user/CLionProjects/untitled3/some_class/mystack_oop.cpp || cmake_object_order_depends_target_untitled3
+  DEP_FILE = CMakeFiles\untitled3.dir\some_class\mystack_oop.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\untitled3.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled3.dir\some_class
@@ -67,6 +67,18 @@ build CMakeFiles/untitled3.dir/some_class/triangle_circle.cpp.obj: CXX_COMPILER_
   OBJECT_DIR = CMakeFiles\untitled3.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled3.dir\some_class
 
+build CMakeFiles/untitled3.dir/_IndustrialProgramming/workbook_1/Node.cpp.obj: CXX_COMPILER__untitled3_unscanned_Debug C$:/Users/user/CLionProjects/untitled3/$ IndustrialProgramming/workbook_1/Node.cpp || cmake_object_order_depends_target_untitled3
+  DEP_FILE = CMakeFiles\untitled3.dir\_IndustrialProgramming\workbook_1\Node.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled3.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled3.dir\_IndustrialProgramming\workbook_1
+
+build CMakeFiles/untitled3.dir/_IndustrialProgramming/workbook_1/task_1.cpp.obj: CXX_COMPILER__untitled3_unscanned_Debug C$:/Users/user/CLionProjects/untitled3/$ IndustrialProgramming/workbook_1/task_1.cpp || cmake_object_order_depends_target_untitled3
+  DEP_FILE = CMakeFiles\untitled3.dir\_IndustrialProgramming\workbook_1\task_1.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled3.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled3.dir\_IndustrialProgramming\workbook_1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target untitled3
@@ -75,7 +87,7 @@ build CMakeFiles/untitled3.dir/some_class/triangle_circle.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable untitled3.exe
 
-build untitled3.exe: CXX_EXECUTABLE_LINKER__untitled3_Debug CMakeFiles/untitled3.dir/some_class/main.cpp.obj CMakeFiles/untitled3.dir/some_class/complex.cpp.obj CMakeFiles/untitled3.dir/some_class/triangle_circle.cpp.obj
+build untitled3.exe: CXX_EXECUTABLE_LINKER__untitled3_Debug CMakeFiles/untitled3.dir/some_class/mystack_oop.cpp.obj CMakeFiles/untitled3.dir/some_class/complex.cpp.obj CMakeFiles/untitled3.dir/some_class/triangle_circle.cpp.obj CMakeFiles/untitled3.dir/_IndustrialProgramming/workbook_1/Node.cpp.obj CMakeFiles/untitled3.dir/_IndustrialProgramming/workbook_1/task_1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled3.dir
