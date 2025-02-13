@@ -33,12 +33,12 @@ void display(Node* node) {
     cout << "NULL" << endl;
 }
 
-// int main() {
-//     Node* head = NULL;
-//     append(&head, 1);
-//     append(&head, 2);
-//     append(&head, 3);
-//     cout << "Содержимое двусязного списка" << endl;
-//     display(head);
-//     return 0;
-// }
+int main() {
+    Node* head = NULL;
+    append(&head, 1);
+    append(&head, 2);
+    append(&head, 3);
+    cout << "Содержимое двусязного списка" << endl;
+    display(head);
+    return 0;
+}
