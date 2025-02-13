@@ -35,16 +35,15 @@ int main() {
     array[n - 5].next = &array[3];
     turtle = &array[0];
     rabbit = &array[1];
-    while (rabbit != nullptr and rabbit->next != nullptr and turtle != rabbit) { // Floyd's Cycle-Finding Algorithm
+    while (rabbit != nullptr and rabbit->next != nullptr and turtle != rabbit) {
+        // Floyd's Cycle-Finding Algorithm
         turtle = turtle->next;
         rabbit = rabbit->next->next;
     }
     if (rabbit != turtle) {
         cout << "No loop\n";
     } else {
-        cout << "Loop detected!" << endl;
-        cout << "Cell " << turtle->data << " references cell " << turtle->next->data << endl;
-        cout << "Done!";
+        cout << "Loop detected!\n" << "Cell " << turtle->data << " references cell " << turtle->next->data << endl << "Done!";
     }
     return 0;
 }

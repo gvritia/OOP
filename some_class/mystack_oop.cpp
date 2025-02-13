@@ -31,18 +31,18 @@ public:
     }
 };
 
-int main() {
-    MyStack stack;
-    stack.push(10);
-    stack.push(20);
-    stack.push(30);
-    stack.push(40);
-    stack.push(50);
-    stack.back();
-    stack.size();
-    stack.pop();
-    stack.size();
-    stack.clear();
-    stack.size();
-    return 0;
-}
+// int main() {
+//     MyStack stack;
+//     stack.push(10);
+//     stack.push(20);
+//     stack.push(30);
+//     stack.push(40);
+//     stack.push(50);
+//     stack.back();
+//     stack.size();
+//     stack.pop();
+//     stack.size();
+//     stack.clear();
+//     stack.size();
+//     return 0;
+// }

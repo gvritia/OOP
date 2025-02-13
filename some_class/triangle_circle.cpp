@@ -125,10 +125,10 @@ public:
     }
 };
 
-int main() {
-    Triangle triangle(3, 4, 5), triangle2(6, 8, 10);
-    triangle.show();
-    triangle2.show();
-    cout<<triangle.is_similar(triangle2);
-    return 0;
-}
+// int main() {
+//     Triangle triangle(3, 4, 5), triangle2(6, 8, 10);
+//     triangle.show();
+//     triangle2.show();
+//     cout<<triangle.is_similar(triangle2);
+//     return 0;
+// }

@@ -28,16 +28,16 @@ public:
     }
 };
 
-int main() {
-    ComplexNumber number1(3, 4), number2(3, 5);
-    number1.show();
-    cout<< "---------------------"<< endl;
-    number1.set(5, 6);
-    number1.show();
-    cout<< "---------------------"<< endl;
-    number2.show();
-    number2.set(8, 12);
-    cout<< "---------------------"<< endl;
-    number2.show();
-    return 0;
-}
+// int main() {
+//     ComplexNumber number1(3, 4), number2(3, 5);
+//     number1.show();
+//     cout<< "---------------------"<< endl;
+//     number1.set(5, 6);
+//     number1.show();
+//     cout<< "---------------------"<< endl;
+//     number2.show();
+//     number2.set(8, 12);
+//     cout<< "---------------------"<< endl;
+//     number2.show();
+//     return 0;
+// }
