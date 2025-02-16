@@ -9,4 +9,5 @@ add_executable(untitled3 some_class/mystack_oop.cpp
         " IndustrialProgramming/workbook_1/Node.cpp"
         " IndustrialProgramming/workbook_1/task_1.cpp"
         " IndustrialProgramming/workbook_1/task_1.cpp"
+        " IndustrialProgramming/workbook_1/task_2.cpp"
 )

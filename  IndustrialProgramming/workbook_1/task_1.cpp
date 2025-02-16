@@ -14,23 +14,34 @@ struct Node {
     Node *prev;
 };
 
+void show(Node *head) {
+    while (head != nullptr) {
+        cout << head->data << " -> ";
+        head = head->next;
+    }
+}
+
+void push_back(Node *array, int n) {
+    for (int i = 0; i < n; i++) {
+        array[i].data = i + 1;
+        //Эта строчка связывает текущий узел (array[i]) со следующим узлом (array[i+1]).
+        //То есть, поле next текущего узла теперь указывает на следующий узел в массиве.
+        if (i < n - 1) {
+            array[i].next = &array[i + 1];
+        }
+        else {
+            array[i].next = nullptr;
+        }
+    }
+}
 
 int main() {
     const int n = 10;
     static struct Node array[n];
     struct Node *turtle, *rabbit;
     cout << "array elements\n";
-    for (int i = 0; i < n - 1; i++) {
-        array[i].data = i + 1;
-        //Эта строчка связывает текущий узел (array[i]) со следующим узлом (array[i+1]).
-        //То есть, поле next текущего узла теперь указывает на следующий узел в массиве.
-        array[i].next = &array[i + 1];
-    }
-    for (int i = 0; i < n - 1; i++) {
-        cout << array[i].data << " -> ";
-    }
-    cout << endl;
-    array[n - 1].data = n - 1;
+    push_back(array, n);
+    show(array);
     // Создаём цикл/проскок
     array[n - 5].next = &array[3];
     turtle = &array[0];
@@ -41,9 +52,11 @@ int main() {
         rabbit = rabbit->next->next;
     }
     if (rabbit != turtle) {
-        cout << "No loop\n";
-    } else {
-        cout << "Loop detected!\n" << "Cell " << turtle->data << " references cell " << turtle->next->data << endl << "Done!";
+        cout << "\nNo loop\n";
+    }
+    else {
+        cout << "\nLoop detected!\n" << "Cell " << turtle->data << " references cell " << turtle->next->data <<
+                "\nDone!";
     }
     return 0;
 }
