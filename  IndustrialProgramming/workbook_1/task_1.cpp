@@ -16,23 +16,25 @@ struct Node {
 
 void show(Node *head) {
     while (head != nullptr) {
-        cout << head->data << " -> ";
+        cout << head->data << " <-> ";
         head = head->next;
     }
 }
 
-void push_back(Node *array, int n) {
+void creat_node(Node *array, int n) {
     for (int i = 0; i < n; i++) {
         array[i].data = i + 1;
         //Эта строчка связывает текущий узел (array[i]) со следующим узлом (array[i+1]).
         //То есть, поле next текущего узла теперь указывает на следующий узел в массиве.
         if (i < n - 1) {
             array[i].next = &array[i + 1];
+            array[i].prev = &array[i - 1];
         }
         else {
             array[i].next = nullptr;
         }
     }
+    array[0].prev = nullptr;
 }
 
 int main() {
@@ -40,7 +42,7 @@ int main() {
     static struct Node array[n];
     struct Node *turtle, *rabbit;
     cout << "array elements\n";
-    push_back(array, n);
+    creat_node(array, n);
     show(array);
     // Создаём цикл/проскок
     array[n - 5].next = &array[3];

@@ -10,20 +10,22 @@ struct Node{
 
 void show(Node *head) {
     while(head != nullptr) {
-        cout<<head->data<<" -> ";
+        cout<<head->data<<" <-> ";
         head = head->next;
     }
 }
-void push_back(Node *array, int n) {
+void creat_node(Node *array, int n) {
     for (int i = 0; i < n; i++) {
         array[i].data = i + 1;
         if (i < n - 1) {
             array[i].next = &array[i + 1];
+            array[i].prev = &array[i - 1];
         }
         else {
             array[i].next = nullptr;
         }
     }
+    array[0].prev = nullptr;
 }
 
 int main() {
@@ -34,7 +36,7 @@ int main() {
     // Node *greater_x = new Node;
     cout<<"Enter value of x: ";
     cin>>x;
-    push_back(array, n);
+    creat_node(array, n);
     show(array);
     // for (int i = 0; i < n - 1; i++) {
     //     if (array[i].data < x) {

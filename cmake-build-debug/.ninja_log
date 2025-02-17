@@ -1,20 +1,15 @@
 # ninja log v6
-17	914	7611644166374304	CMakeFiles/untitled3.dir/some_class/complex.cpp.obj	d468a693428b9df6
+15	901	7614173771968257	CMakeFiles/untitled3.dir/some_class/complex.cpp.obj	d468a693428b9df6
 3	36	7610894711962856	CMakeFiles/untitled3.dir/main.cpp.obj	e4a75385518f03f0
-2	251	7612174948723322	build.ninja	d6fbf8b3fb247783
+2	251	7614324613210066	build.ninja	d6fbf8b3fb247783
 278	348	7611735111441289	untitled3.exe	8bbe83de81754632
 7	601	7610636423137861	CMakeFiles/untitled3.dir/Triangle.cpp.obj	b25adcb25f84aacd
 5	330	7610892571320997	CMakeFiles/untitled3.dir/some_class.cpp.obj	75b81fa81dbe6175
 7	352	7610891460662624	CMakeFiles/untitled3.dir/scratch.cpp.obj	3358c45c73ec24db
 3	400	7610896308336149	CMakeFiles/untitled3.dir/some_class/main.cpp.obj	a44476352bd69fef
-9	833	7611644166294342	CMakeFiles/untitled3.dir/some_class/mystack_oop.cpp.obj	ec8cdfaca61f68a
-23	979	7611644166434319	CMakeFiles/untitled3.dir/some_class/triangle_circle.cpp.obj	233b83665a7246d
-4	373	7611649598029810	CMakeFiles/untitled3.dir/_IndustrialProgramming/Node.cpp.obj	65440aabdf9d5ff
-3	278	7611735108686954	CMakeFiles/untitled3.dir/_IndustrialProgramming/workbook_1/Node.cpp.obj	bb1e9f0a4e54dc46
-7	278	7611735108716774	CMakeFiles/untitled3.dir/_IndustrialProgramming/workbook_1/task_1.cpp.obj	49d857c41a73f1e1
-23	879	7614173772048890	CMakeFiles/untitled3.dir/_IndustrialProgramming/workbook_1/task_2.cpp.obj	e6651988670016d8
-20	880	7614173772018254	CMakeFiles/untitled3.dir/_IndustrialProgramming/workbook_1/Node.cpp.obj	bb1e9f0a4e54dc46
-15	901	7614173771968257	CMakeFiles/untitled3.dir/some_class/complex.cpp.obj	d468a693428b9df6
 11	988	7614173771928369	CMakeFiles/untitled3.dir/some_class/mystack_oop.cpp.obj	ec8cdfaca61f68a
 17	1061	7614173771988273	CMakeFiles/untitled3.dir/some_class/triangle_circle.cpp.obj	233b83665a7246d
+4	373	7611649598029810	CMakeFiles/untitled3.dir/_IndustrialProgramming/Node.cpp.obj	65440aabdf9d5ff
+20	880	7614173772018254	CMakeFiles/untitled3.dir/_IndustrialProgramming/workbook_1/Node.cpp.obj	bb1e9f0a4e54dc46
+7	278	7611735108716774	CMakeFiles/untitled3.dir/_IndustrialProgramming/workbook_1/task_1.cpp.obj	49d857c41a73f1e1
 5	281	7614177970935271	CMakeFiles/untitled3.dir/_IndustrialProgramming/workbook_1/task_2.cpp.obj	e6651988670016d8
