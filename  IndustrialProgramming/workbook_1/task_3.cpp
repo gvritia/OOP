@@ -37,6 +37,10 @@ void Cycle_Finding(Node* head) {
 
 void delete_node(Node *&head, int del_value) {
     Node* current = head;
+    if (current->next == current && current->prev == current) {
+        head = nullptr; // Список становится пустым
+    }
+
     while (current->data != del_value) {
         current = current->next;
         if (current == head)
