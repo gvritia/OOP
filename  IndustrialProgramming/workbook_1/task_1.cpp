@@ -21,7 +21,7 @@ void show(Node *head) {
     }
 }
 
-void creat_node(Node *array, int n) {
+void create_node(Node *array, int n) {
     for (int i = 0; i < n; i++) {
         array[i].data = i + 1;
         //Эта строчка связывает текущий узел (array[i]) со следующим узлом (array[i+1]).
@@ -42,7 +42,7 @@ int main() {
     static struct Node array[n];
     struct Node *turtle, *rabbit;
     cout << "array elements\n";
-    creat_node(array, n);
+    create_node(array, n);
     show(array);
     // Создаём цикл/проскок
     array[n - 5].next = &array[3];

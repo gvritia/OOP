@@ -14,7 +14,7 @@ void show(Node *head) {
         head = head->next;
     }
 }
-void creat_node(Node *array, int n) {
+void create_node(Node *array, int n) {
     for (int i = 0; i < n; i++) {
         array[i].data = i + 1;
         if (i < n - 1) {
@@ -36,7 +36,7 @@ int main() {
     // Node *greater_x = new Node;
     cout<<"Enter value of x: ";
     cin>>x;
-    creat_node(array, n);
+    create_node(array, n);
     show(array);
     // for (int i = 0; i < n - 1; i++) {
     //     if (array[i].data < x) {

@@ -9,7 +9,7 @@ struct Node {
     Node* left;
 };
 
-Node* creat_node(int value) {
+Node* create_node(int value) {
     Node* new_node = new Node;
     new_node->data = value;
     new_node->right = nullptr;
@@ -19,7 +19,7 @@ Node* creat_node(int value) {
 
 Node* insert(Node* root, int value) {
     if (root == nullptr) {
-        return creat_node(value);
+        return create_node(value);
     }
     else if(value < root->data) {
         root->left = insert(root->left, value);
