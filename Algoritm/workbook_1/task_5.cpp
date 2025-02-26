@@ -1,3 +1,9 @@
+// Создать дерево отрезков (в узлах хранятся интервалы). Программа должна запрашивать l и r начало и конец интервала соответственно. Для готового дерева реализовать операции:
+// а) рекурсивное построение дерева отрезков;
+// б) обход дерева (прямой, обратный или симметричный – по выбору) и печать элементов дерева на экран;
+// в) подсчет количества интервалов дерева, содержащих точку X.
+
+
 #include <iostream>
 using namespace std;
 
@@ -20,7 +26,7 @@ Node* build(int l, int r) {
     if (l != r) {  // Разделение интервала
         int mid = (l + r) / 2;
         node->left = build(l, mid);
-        node->right = build(mid, r);
+        node->right = build(mid + 1, r);
     }
     return node;
 }
@@ -45,8 +51,10 @@ int searchX(Node* root, int x) {
 
 int main() {
     int l, r, x;
-    cout << "Enter the start and end of the interval: ";
-    cin >> l >> r;
+    cout << "Enter the start of the interval: ";
+    cin >> l;
+    cout <<"Enter end of the interval: ";
+    cin >> r;
     Node* root = build(l, r);
     cout << "\nTree is: ";
     show(root);
