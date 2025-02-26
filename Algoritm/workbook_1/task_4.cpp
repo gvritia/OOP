@@ -114,7 +114,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         x = rand() % 100;
         root = insert(root, x);
-        cout << x << " ";
+        // cout << x << " ";
     }
     cout << "\nTree is: ";
     show(root);
