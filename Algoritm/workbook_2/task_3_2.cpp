@@ -116,9 +116,9 @@ int main() {
     cout << endl;
 
     if (isRBTree(root))
-        cout << "Tree is RB Tree.\n";
+        cout << "Tree is RB Tree\n";
     else
-        cout << "Tree is NOT RB Tree.\n";
+        cout << "Tree is NOT RB Tree\n";
     deleteTree(root);
     return 0;
 }
