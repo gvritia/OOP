@@ -15,7 +15,6 @@ int height(Node *root) {
     return 1 + max(height(root->left), height(root->right));
 }
 
-// Функция для вычисления баланса узла
 void calculateBalance(Node *root) {
     if (root == nullptr) {
         return;
@@ -50,7 +49,6 @@ Node* turnleft(Node *root) {
 }
 
 
-// Симметричный обход
 void inOrder(Node *root) {
     if (root != nullptr) {
         inOrder(root->left);
@@ -81,7 +79,7 @@ Node* balance(Node *root) {
     if (root == nullptr){
         return root;
     }
-    root->balance = height(root->right) - height(root->left); // Только для текущего узла
+    root->balance = height(root->right) - height(root->left);
     if (root->balance == 2) {
         if (root->right->balance < 0) {
             root->right = turnright(root->right);
@@ -149,6 +147,9 @@ int main() {
     root1 = balanced_insert(root1, 35);
     root1 = balanced_insert(root1, 60);
 
+    cout << "\nBalanced tree: ";
+    inOrder(root1);
+    root1 = balanced_insert(root1, 10);
     cout << "\nBalanced tree: ";
     inOrder(root1);
     deleteTree(root1);

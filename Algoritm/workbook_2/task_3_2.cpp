@@ -51,7 +51,7 @@ bool no_red(Node* node) {
         return true;
     }
     if (node->color == 'R') {
-        if (node->left->color == 'R' or node->right->color == 'R') {
+        if ((node->left != nullptr and node->left->color == 'R') or (node->right != nullptr and node->right->color == 'R')) {
             return false;
         }
     }
@@ -103,18 +103,16 @@ void deleteTree(Node *root) {
 
 int main() {
     Node* root = nullptr;
-    root = insert(root, 10, 'B');
-    root = insert(root, 5, 'R');
-    root = insert(root, 20, 'R');
+    root = insert(root, 8, 'B');
+    root = insert(root, 4, 'R');
+    root = insert(root, 10, 'K');
     root = insert(root, 3, 'B');
-    root = insert(root, 7, 'B');
-    root = insert(root, 15, 'B');
-    root = insert(root, 25, 'B');
-    // root = insert(root, 30, 'B');
+    root = insert(root, 5, 'B');
+    root = insert(root, 9, 'B');
+    root = insert(root, 11, 'B');
     cout << "Tree: ";
     inOrder(root);
     cout << endl;
-
     if (isRBTree(root))
         cout << "Tree is RB Tree\n";
     else
