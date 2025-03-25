@@ -17,4 +17,8 @@ add_executable(untitled3 some_class/mystack_oop.cpp
         Algoritm/workbook_2/task_3_2.cpp
         some_class/Figure.cpp
         some_class/telegraf.cpp
+        some_class/27.cpp
+        some_class/28.cpp
+        some_class/29.cpp
+        some_class/30.cpp
 )

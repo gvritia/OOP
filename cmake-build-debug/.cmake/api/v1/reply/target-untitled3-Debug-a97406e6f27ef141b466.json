@@ -65,7 +65,11 @@
 				10,
 				11,
 				12,
-				13
+				13,
+				14,
+				15,
+				16,
+				17
 			]
 		}
 	],
@@ -115,7 +119,11 @@
 				10,
 				11,
 				12,
-				13
+				13,
+				14,
+				15,
+				16,
+				17
 			]
 		}
 	],
@@ -203,6 +211,30 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "some_class/telegraf.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "some_class/27.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "some_class/28.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "some_class/29.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "some_class/30.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
