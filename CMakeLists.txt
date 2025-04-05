@@ -21,4 +21,13 @@ add_executable(untitled3 some_class/mystack_oop.cpp
         some_class/28.cpp
         some_class/29.cpp
         some_class/30.cpp
+        Algoritm/workbook_3/task_1_3.cpp
+        Algoritm/workbook_3/task_2_3.cpp
+        Algoritm/workbook_3/task_3_3.cpp
+        Algoritm/workbook_3/task_4_3.cpp
+        Algoritm/workbook_3/task_5_3.cpp
+        Algoritm/workbook_4/task_1_4.cpp
+        Algoritm/workbook_4/task_2_4.cpp
+        Algoritm/workbook_4/task_4_5.cpp
+        Algoritm/workbook_4/task_3_4.cpp
 )
