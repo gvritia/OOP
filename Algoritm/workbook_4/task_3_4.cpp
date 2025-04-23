@@ -105,9 +105,9 @@ string decode_text(const string& encoded, HuffmanNode* root) {
 }
 // Функция расчета коэффициента сжатия
 double calc_compression_ratio(const string& original, const string& encoded) {
-    double originalSize = original.length() * 8.0;
+    double originalSize = original.length() * 8;
     double compressedSize = encoded.length();
-    return (originalSize / compressedSize) * 100;
+    return (compressedSize/ originalSize) * 100;
 }
 
 void delete_tree(HuffmanNode* root) {
@@ -147,6 +147,7 @@ int main() {
     run_test("Long text", "the quick brown fox jumps over the lazy dog");
     run_test("Two same characters", "aa");
     run_test("Two different characters", "ab");
+    run_test("Two different characters", "mama mila ramu");
     string userText;
     cout << "\nEnter your own text (at least 2 characters): ";
     getline(cin, userText);
