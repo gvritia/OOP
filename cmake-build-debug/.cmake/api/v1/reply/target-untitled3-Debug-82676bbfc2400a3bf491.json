@@ -78,7 +78,11 @@
 				23,
 				24,
 				25,
-				26
+				26,
+				27,
+				28,
+				29,
+				30
 			]
 		}
 	],
@@ -141,7 +145,11 @@
 				23,
 				24,
 				25,
-				26
+				26,
+				27,
+				28,
+				29,
+				30
 			]
 		}
 	],
@@ -307,6 +315,30 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Algoritm/workbook_4/task_3_4.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Algoritm/workbook_5/task_1_5.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Algoritm/workbook_5/task_2_5.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Algoritm/workbook_5/task_3_5.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Algoritm/workbook_5/task_4_5.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

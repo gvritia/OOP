@@ -30,4 +30,8 @@ add_executable(untitled3 some_class/mystack_oop.cpp
         Algoritm/workbook_4/task_2_4.cpp
         Algoritm/workbook_4/task_4_5.cpp
         Algoritm/workbook_4/task_3_4.cpp
+        Algoritm/workbook_5/task_1_5.cpp
+        Algoritm/workbook_5/task_2_5.cpp
+        Algoritm/workbook_5/task_3_5.cpp
+        Algoritm/workbook_5/task_4_5.cpp
 )
