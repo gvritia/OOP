@@ -28,7 +28,7 @@ add_executable(untitled3 some_class/mystack_oop.cpp
         Algoritm/workbook_3/task_5_3.cpp
         Algoritm/workbook_4/task_1_4.cpp
         Algoritm/workbook_4/task_2_4.cpp
-        Algoritm/workbook_4/task_4_5.cpp
+        Algoritm/workbook_4/task_4_4.cpp
         Algoritm/workbook_4/task_3_4.cpp
         Algoritm/workbook_5/task_1_5.cpp
         Algoritm/workbook_5/task_2_5.cpp
